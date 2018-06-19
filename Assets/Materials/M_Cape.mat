@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_Cape
+  m_Shader: {fileID: 4800000, guid: 0e3b78442e61b024994530c451a955cf, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 2bcd3c024cf2a834fbfb1160ad7eb2fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: 100cf90a865d0684ab07550790f826d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DisplacementMask:
+        m_Texture: {fileID: 2800000, guid: 58d2f52ae9da2574db76f7de9a0a668e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DummyTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 2bcd3c024cf2a834fbfb1160ad7eb2fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2bcd3c024cf2a834fbfb1160ad7eb2fd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RGBtex:
+        m_Texture: {fileID: 2800000, guid: f33ff7683b55f9e458663cbab811d471, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_LinearMask1:
+        m_Texture: {fileID: 2800000, guid: ab3541b85f9eb1e43869f309cbd372ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture1:
+        m_Texture: {fileID: 2800000, guid: 5ecc64c847457dd4896f74df9a4224f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: ab3541b85f9eb1e43869f309cbd372ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _BumpScale: 1
+    - _Contrast: 0.61
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DisplacementStrength: 0.1
+    - _DstBlend: 0
+    - _Emissive: 0.2
+    - _Float1: 0
+    - _Float2: 0.15
+    - _Float4: 30.3
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _MouvSpeed: 0.5
+    - _MoveSpeed: 0.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Tess: 5.89
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessValue: 1
+    - _Tiling: 15.9
+    - _UVSec: 0
+    - _YdispStrength: 0
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DisplacementMapTiling: {r: 1, g: 3, b: 0, a: 0}
+    - _DisplacementSpeed: {r: 0, g: 0.7, b: 0, a: 0}
+    - _EmissionColor: {r: 0.799, g: 0.799, b: 0.799, a: 1}
+    - _Emissivecolor: {r: 1, g: 1, b: 1, a: 0}
+    - _Tiling: {r: 1, g: 4, b: 0, a: 0}
+    - _TilingRGB: {r: 1, g: 1, b: 0, a: 0}

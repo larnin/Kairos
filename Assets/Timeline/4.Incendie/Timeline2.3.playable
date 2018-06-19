@@ -1,0 +1,4185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: Timeline2.3
+  m_EditorClassIdentifier: 
+  m_Id: 0
+  m_NextId: 0
+  m_Tracks:
+  - {fileID: 114676549808407810}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    fps: 60
+  m_UpdateMode: 0
+  m_ParameterName: 
+  m_DurationMode: 0
+--- !u!114 &114023455766442722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -14.73
+    - Name: 
+      Entry: 4
+      Data: 6.75
+    - Name: 
+      Entry: 4
+      Data: -38.43
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -1.765756E-08
+    - Name: 
+      Entry: 4
+      Data: 0.9993817
+    - Name: 
+      Entry: 4
+      Data: -1.28795934E-08
+    - Name: 
+      Entry: 4
+      Data: 0.0351600535
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanB
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114059791435593348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -17.7
+    - Name: 
+      Entry: 4
+      Data: 6.653
+    - Name: 
+      Entry: 4
+      Data: -39.83
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -0.129608959
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.991565168
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanB
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114128342259941824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -13.2131224
+    - Name: 
+      Entry: 4
+      Data: 7.193779
+    - Name: 
+      Entry: 4
+      Data: -13.3443336
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.06893954
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.9976209
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanA
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Sad
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114140708487834334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -16.81
+    - Name: 
+      Entry: 4
+      Data: 6.69
+    - Name: 
+      Entry: 4
+      Data: -36.29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 5.015694E-09
+    - Name: 
+      Entry: 4
+      Data: 0.42032674
+    - Name: 
+      Entry: 4
+      Data: -2.12724327E-08
+    - Name: 
+      Entry: 4
+      Data: -0.907372832
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanC
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114180219704804136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Event Track
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114676549808407810}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114128342259941824}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 38.733333333333334
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114180219704804136}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+--- !u!114 &114196430481603946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Event Track
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114676549808407810}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114722291576212448}
+    m_UnderlyingAsset: {fileID: 114722291576212448}
+    m_Duration: 10.033333333333333
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114196430481603946}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 10.033333333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: 114347981540696560}
+    m_UnderlyingAsset: {fileID: 114722291576212448}
+    m_Duration: 8.45
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114196430481603946}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 18.483333333333334
+    m_ClipIn: 0
+    m_Asset: {fileID: 114811046843801200}
+    m_UnderlyingAsset: {fileID: 114722291576212448}
+    m_Duration: 7.265076615164677
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114196430481603946}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 25.74840994849801
+    m_ClipIn: 0
+    m_Asset: {fileID: 114375481831421464}
+    m_UnderlyingAsset: {fileID: 114722291576212448}
+    m_Duration: 12.984923384833987
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114196430481603946}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 38.733333333332
+    m_ClipIn: 0
+    m_Asset: {fileID: 114337914164767954}
+    m_UnderlyingAsset: {fileID: 114722291576212448}
+    m_Duration: 12.984923384833987
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114196430481603946}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+--- !u!114 &114258285619558162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -17.49
+    - Name: 
+      Entry: 4
+      Data: 6.86
+    - Name: 
+      Entry: 4
+      Data: -35.37
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -1.98008081E-08
+    - Name: 
+      Entry: 4
+      Data: 0.451390773
+    - Name: 
+      Entry: 4
+      Data: 9.252098E-09
+    - Name: 
+      Entry: 4
+      Data: 0.8923264
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanC
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Sad
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114313141137828572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -22.119
+    - Name: 
+      Entry: 4
+      Data: 7.159
+    - Name: 
+      Entry: 4
+      Data: -19.901
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -0.036586713
+    - Name: 
+      Entry: 4
+      Data: 0.7740204
+    - Name: 
+      Entry: 4
+      Data: 0.0449145623
+    - Name: 
+      Entry: 4
+      Data: 0.6305051
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: M_Allan
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Sitting
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114318679794432434
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -0.129608959
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.991565168
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanB
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114337914164767954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -5.598605E-16
+    - Name: 
+      Entry: 4
+      Data: -0.241813719
+    - Name: 
+      Entry: 4
+      Data: -3.609584E-16
+    - Name: 
+      Entry: 4
+      Data: 0.9703227
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Marche1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114347981540696560
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -15.02
+    - Name: 
+      Entry: 4
+      Data: 6.634
+    - Name: 
+      Entry: 4
+      Data: -41.46
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -4.6156477E-16
+    - Name: 
+      Entry: 4
+      Data: -0.01160303
+    - Name: 
+      Entry: 4
+      Data: -4.803049E-16
+    - Name: 
+      Entry: 4
+      Data: 0.9999327
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Marche1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114375481831421464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -17.89
+    - Name: 
+      Entry: 4
+      Data: 6.681
+    - Name: 
+      Entry: 4
+      Data: -36.5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -5.598605E-16
+    - Name: 
+      Entry: 4
+      Data: -0.241813719
+    - Name: 
+      Entry: 4
+      Data: -3.609584E-16
+    - Name: 
+      Entry: 4
+      Data: 0.9703227
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Marche1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114409113999120152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -15.23
+    - Name: 
+      Entry: 4
+      Data: 6.69
+    - Name: 
+      Entry: 4
+      Data: -37.89
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 5.015694E-09
+    - Name: 
+      Entry: 4
+      Data: 0.42032674
+    - Name: 
+      Entry: 4
+      Data: -2.12724327E-08
+    - Name: 
+      Entry: 4
+      Data: -0.907372832
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanC
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114437911164487154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Event Track
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114676549808407810}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0.016666666666666666
+    m_ClipIn: 0
+    m_Asset: {fileID: 114788954146840582}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 10.366666666666665
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114437911164487154}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude Movement
+  - m_Start: 10.383333333333335
+    m_ClipIn: 0
+    m_Asset: {fileID: 114441518228515922}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 6.150000000000002
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114437911164487154}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude Movement
+  - m_Start: 16.533333333333335
+    m_ClipIn: 0
+    m_Asset: {fileID: 114866351627979954}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 22.19999999999866
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114437911164487154}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude Movement
+--- !u!114 &114441518228515922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -21.443
+    - Name: 
+      Entry: 4
+      Data: 6.898
+    - Name: 
+      Entry: 4
+      Data: -20.925
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.799003363
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.6013265
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: SittingShockedTalking
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114496764262281876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Event Track
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114676549808407810}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114879504249060906}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 38.683333333332
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114496764262281876}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Sarah Movement
+--- !u!114 &114498557228252224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -13.78
+    - Name: 
+      Entry: 4
+      Data: 6.75
+    - Name: 
+      Entry: 4
+      Data: -34.15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -1.18507284E-08
+    - Name: 
+      Entry: 4
+      Data: 0.9452771
+    - Name: 
+      Entry: 4
+      Data: -1.83639184E-08
+    - Name: 
+      Entry: 4
+      Data: -0.3262687
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanB
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114536373032093688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Event Track (1)
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114676549808407810}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114498557228252224}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 5
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114536373032093688}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+  - m_Start: 5
+    m_ClipIn: 0
+    m_Asset: {fileID: 114869809652904548}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 5
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114536373032093688}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+  - m_Start: 10.033333333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: 114023455766442722}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 8.415076615164677
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114536373032093688}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+  - m_Start: 18.44840994849801
+    m_ClipIn: 0
+    m_Asset: {fileID: 114059791435593348}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 7.3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114536373032093688}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+  - m_Start: 25.74840994849801
+    m_ClipIn: 0
+    m_Asset: {fileID: 114843560506435568}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 12.934923384833983
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114536373032093688}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+  - m_Start: 38.683333333331994
+    m_ClipIn: 0
+    m_Asset: {fileID: 114318679794432434}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 12.934923384833983
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114536373032093688}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+--- !u!114 &114608741915281440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 5.015694E-09
+    - Name: 
+      Entry: 4
+      Data: 0.42032674
+    - Name: 
+      Entry: 4
+      Data: -2.12724327E-08
+    - Name: 
+      Entry: 4
+      Data: -0.907372832
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanC
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114612349552866038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -17.49
+    - Name: 
+      Entry: 4
+      Data: 6.86
+    - Name: 
+      Entry: 4
+      Data: -35.37
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -2.09529922E-08
+    - Name: 
+      Entry: 4
+      Data: 0.9297943
+    - Name: 
+      Entry: 4
+      Data: -6.216543E-09
+    - Name: 
+      Entry: 4
+      Data: 0.368079454
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanC
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114676549808407810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: Movement
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 114437911164487154}
+  - {fileID: 114903761893264758}
+  - {fileID: 114496764262281876}
+  - {fileID: 114180219704804136}
+  - {fileID: 114536373032093688}
+  - {fileID: 114735923610237732}
+  - {fileID: 114196430481603946}
+  m_Clips: []
+--- !u!114 &114679303886690538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -16.81
+    - Name: 
+      Entry: 4
+      Data: 6.69
+    - Name: 
+      Entry: 4
+      Data: -36.29
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 5.015694E-09
+    - Name: 
+      Entry: 4
+      Data: 0.42032674
+    - Name: 
+      Entry: 4
+      Data: -2.12724327E-08
+    - Name: 
+      Entry: 4
+      Data: -0.907372832
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanC
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114722291576212448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -15.02
+    - Name: 
+      Entry: 4
+      Data: 6.622
+    - Name: 
+      Entry: 4
+      Data: -41.46
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -4.6156477E-16
+    - Name: 
+      Entry: 4
+      Data: -0.01160303
+    - Name: 
+      Entry: 4
+      Data: -4.803049E-16
+    - Name: 
+      Entry: 4
+      Data: 0.9999327
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: SeleneBreaking
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114735923610237732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Event Track (2)
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114676549808407810}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114258285619558162}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 5
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114735923610237732}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+  - m_Start: 5
+    m_ClipIn: 0
+    m_Asset: {fileID: 114612349552866038}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 5
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114735923610237732}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+  - m_Start: 10
+    m_ClipIn: 0
+    m_Asset: {fileID: 114847467882390592}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 8.44840994849801
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114735923610237732}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+  - m_Start: 18.44840994849801
+    m_ClipIn: 0
+    m_Asset: {fileID: 114409113999120152}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 7.300000000000001
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114735923610237732}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+  - m_Start: 25.74840994849801
+    m_ClipIn: 0
+    m_Asset: {fileID: 114140708487834334}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 12.984923384833987
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114735923610237732}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+  - m_Start: 38.733333333332
+    m_ClipIn: 0
+    m_Asset: {fileID: 114608741915281440}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 12.984923384833987
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114735923610237732}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Policier
+--- !u!114 &114788954146840582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -21.443
+    - Name: 
+      Entry: 4
+      Data: 6.898
+    - Name: 
+      Entry: 4
+      Data: -20.925
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.799003363
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.6013265
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: SittingShocked
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114811046843801200
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -16.556
+    - Name: 
+      Entry: 4
+      Data: 6.681
+    - Name: 
+      Entry: 4
+      Data: -39.019
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -5.598605E-16
+    - Name: 
+      Entry: 4
+      Data: -0.241813719
+    - Name: 
+      Entry: 4
+      Data: -3.609584E-16
+    - Name: 
+      Entry: 4
+      Data: 0.9703227
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Marche1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114843560506435568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -18.2
+    - Name: 
+      Entry: 4
+      Data: 6.653
+    - Name: 
+      Entry: 4
+      Data: -37.94
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -0.129608959
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.991565168
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanB
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114847467882390592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -17.39
+    - Name: 
+      Entry: 4
+      Data: 6.86
+    - Name: 
+      Entry: 4
+      Data: -38.32
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -2.09529922E-08
+    - Name: 
+      Entry: 4
+      Data: 0.9297943
+    - Name: 
+      Entry: 4
+      Data: -6.216543E-09
+    - Name: 
+      Entry: 4
+      Data: 0.368079454
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanC
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114866351627979954
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -21.443
+    - Name: 
+      Entry: 4
+      Data: 6.898
+    - Name: 
+      Entry: 4
+      Data: -20.925
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.799003363
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.6013265
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: JudeAnxietyCall
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114869809652904548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -14.21
+    - Name: 
+      Entry: 4
+      Data: 6.75
+    - Name: 
+      Entry: 4
+      Data: -36.23
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -1.55082152E-08
+    - Name: 
+      Entry: 4
+      Data: 0.993216157
+    - Name: 
+      Entry: 4
+      Data: -1.54002784E-08
+    - Name: 
+      Entry: 4
+      Data: -0.116282649
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: PoliceMan/PolicemanB
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Walk
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114879504249060906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: false
+    - Name: m_transform
+      Entry: 6
+      Data: 
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -21.551
+    - Name: 
+      Entry: 4
+      Data: 7.045
+    - Name: 
+      Entry: 4
+      Data: -19.247
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0.0431593955
+    - Name: 
+      Entry: 4
+      Data: 0.8351086
+    - Name: 
+      Entry: 4
+      Data: -0.0662091
+    - Name: 
+      Entry: 4
+      Data: 0.5443779
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: M_Sarah
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: Sitting
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114903761893264758
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Event Track
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114676549808407810}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114313141137828572}
+    m_UnderlyingAsset: {fileID: 0}
+    m_Duration: 38.683333333331994
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114903761893264758}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Allan Movement

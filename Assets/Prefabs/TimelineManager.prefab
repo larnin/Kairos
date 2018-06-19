@@ -1,0 +1,395 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1904423717614614}
+  m_IsPrefabParent: 1
+--- !u!1 &1904423717614614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4047008184468514}
+  - component: {fileID: 114039028109743520}
+  m_Layer: 0
+  m_Name: TimelineManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4047008184468514
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904423717614614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.084675, y: 8.24703, z: -26.205002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114039028109743520
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1904423717614614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3a49fc2f1df9246ba3401e72ba5aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_effectTime: 2
+  m_properties:
+  - property: happy
+  - property: sad
+  - property: choice1.1
+  - property: forMe
+  - property: selene
+  - property: choice1.2
+  - property: noSelene
+  - property: myFriends
+  - property: choice1.3
+  - property: seleneLoved
+  - property: enthusiastic
+  - property: hated
+  - property: choice2.1
+  - property: notDangerous
+  - property: veryDangerous
+  - property: choice2.2
+  - property: dawn
+  - property: uninterested
+  - property: choice2.3
+  - property: loveSelene
+  - property: loveAlan
+  - property: loveSarah
+  - property: noChris
+  - property: irrevelant
+  - property: fantastic
+  - property: choice3.1
+  - property: seleneMe
+  - property: seleneYou
+  - property: choice3.2
+  - property: infinite
+  - property: noTommorow
+  - property: few
+  - property: choice3.3
+  - property: choice4.1
+  - property: choice4.2
+  - property: choice4.3
+  m_elements:
+  - m_condition:
+      m_properties:
+      - selene
+      m_conditionExpression: '!selene'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - happy
+      m_conditionExpression: happy
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - sad
+      m_conditionExpression: sad
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - me
+      m_conditionExpression: me
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - selene
+      m_conditionExpression: selene
+    objects:
+    - {fileID: 0}
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - noSelene
+      - choice1.1
+      - choice1.2
+      m_conditionExpression: noSelene && !(choice1.1 && choice1.2)
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - myFriends
+      - selene
+      m_conditionExpression: myFriends && !selene
+    objects:
+    - {fileID: 0}
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - myFriends
+      - selene
+      m_conditionExpression: '!myFriends && !selene'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice1.1
+      m_conditionExpression: '!choice1.1'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice1.2
+      m_conditionExpression: '!choice1.2'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice1.3
+      m_conditionExpression: '!choice1.3'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice1.1
+      - choice1.2
+      - choice1.3
+      - selene
+      m_conditionExpression: (!choice1.1 && !choice1.2 && !choice1.3) || selene
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - hated
+      - dawn
+      - enthusiastic
+      m_conditionExpression: '!hated && !enthusiastic &&!dawn'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - seleneLoved
+      m_conditionExpression: seleneLoved
+    objects:
+    - {fileID: 0}
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - enthusiastic
+      m_conditionExpression: enthusiastic
+    objects:
+    - {fileID: 0}
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - hated
+      m_conditionExpression: hated
+    objects:
+    - {fileID: 0}
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - notDangerous
+      m_conditionExpression: notDangerous
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - veryDangerous
+      m_conditionExpression: veryDangerous
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - dawn
+      m_conditionExpression: dawn
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - uninterested
+      - hated
+      m_conditionExpression: uninterested && !hated
+    objects:
+    - {fileID: 0}
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice2.1
+      - choice1.1
+      - choice1.2
+      - choice1.3
+      - selene
+      - hated
+      m_conditionExpression: '!choice2.1 && choice1.1 && choice1.2 && choice1.3 &&
+        !selene && !hated '
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice2.2
+      - choice1.1
+      - choice1.2
+      - choice1.3
+      - selene
+      - hated
+      m_conditionExpression: '!choice2.2 && choice1.1 && choice1.2 && choice1.3 &&
+        !selene && !hated'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice2.3
+      - choice1.1
+      - choice1.2
+      - choice1.3
+      - selene
+      - hated
+      m_conditionExpression: '!choice2.3 && choice1.1 && choice1.2 && choice1.3 &&
+        !selene && !hated'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice1.1
+      - choice1.2
+      - choice1.3
+      - choice2.1
+      - choice2.2
+      - choice2.3
+      - selene
+      - hated
+      m_conditionExpression: (choice1.1 && choice1.2 && choice1.3 && !selene) && !(choice2.1
+        && choice2.2 && choice2.3) || hated
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - few
+      - seleneYou
+      m_conditionExpression: '!few && !seleneYou'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - loveSelene
+      - seleneYou
+      m_conditionExpression: loveSelene && !seleneYou
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - loveAlan
+      - seleneYou
+      m_conditionExpression: loveAlan && !seleneYou
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - loveSarah
+      - seleneYou
+      m_conditionExpression: loveSarah && !seleneYou
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - irrevelant
+      - seleneYou
+      m_conditionExpression: irrevelant && !seleneYou
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - fantastic
+      - seleneYou
+      m_conditionExpression: fantastic && !seleneYou
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - seleneMe
+      m_conditionExpression: seleneMe
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - seleneYou
+      m_conditionExpression: seleneYou
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - infinite
+      - seleneYou
+      m_conditionExpression: infinite && !seleneYou
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - noTommorow
+      - seleneYou
+      m_conditionExpression: noTommorow && !seleneYou
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - few
+      - seleneYou
+      m_conditionExpression: few && !seleneYou
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice3.1
+      - choice2.1
+      - choice2.2
+      - choice2.3
+      - hated
+      - seleneYou
+      m_conditionExpression: '!choice3.1 && choice2.1 && choice2.2 && choice2.3 &&
+        !hated && !seleneYou'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice3.2
+      - choice2.1
+      - choice2.2
+      - choice2.3
+      - hated
+      - seleneYou
+      m_conditionExpression: '!choice3.2 && choice2.1 && choice2.2 && choice2.3 &&
+        !hated && !seleneYou'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - choice3.3
+      - choice2.1
+      - choice2.2
+      - choice2.3
+      - hated
+      - seleneYou
+      m_conditionExpression: '!choice3.3 && choice2.1 && choice2.2 && choice2.3 &&
+        !hated && !seleneYou'
+    objects:
+    - {fileID: 0}
+  - m_condition:
+      m_properties:
+      - veryDangerous
+      m_conditionExpression: '!veryDangerous'
+    objects:
+    - {fileID: 0}

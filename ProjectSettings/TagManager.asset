@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Timeline
+  - Ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Trigger
+  - Character
+  - Floor
+  - SpotlightExclude
+  - Smoke
+  - Obstacles
+  - Text
+  - Demon
+  - CinemachineCamera
+  - Fire
+  - FolletLight
+  - Juge
+  - Masks
+  - Dialogue
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

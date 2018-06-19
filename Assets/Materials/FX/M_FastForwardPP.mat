@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: M_FastForwardPP
+  m_Shader: {fileID: 4800000, guid: 3d8a95bd49acdcf409dc72f798b2b271, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PerlinNoise:
+        m_Texture: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Stripes:
+        m_Texture: {fileID: 2800000, guid: 7bbca58d4eb13eb4bb8d6cde200550ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_AnisotropicNoise:
+        m_Texture: {fileID: 2800000, guid: 7bbca58d4eb13eb4bb8d6cde200550ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_ObjectsFade:
+        m_Texture: {fileID: 2800000, guid: ba37349d2e148c743a23954dcb764e72, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_PerlinNoise:
+        m_Texture: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Ramp:
+        m_Texture: {fileID: 2800000, guid: 7dea40901069d854293ac5bf464b747f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_UVFisheye:
+        m_Texture: {fileID: 2800000, guid: 3c86b418b3693df47ad03dce3e9d686b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_Vignette:
+        m_Texture: {fileID: 2800000, guid: 228c63ea18ba8dd46993c588cbb76e4f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _T_burnt_mask:
+        m_Texture: {fileID: 2800000, guid: 777cf9fab1cbcca4abff83b8e9e62de5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BumpScale: 1
+    - _ChromaticAbberationMouvSpeed: 0.05
+    - _ChromaticAberationMouvStrength: 0.05
+    - _ChromaticAberationMouvspeed: 0.05
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _FastForward: 0
+    - _Float0: 0.56
+    - _GameOver: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Intensity: 0.02
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Offset: 0.0025
+    - _OverlayIntensity: 0.2
+    - _Parallax: 0.02
+    - _Pause: 0
+    - _Sens: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _VignetteDeformation: 0.25
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0.7205882, g: 0.42986816, b: 0.42986816, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MouvSpeed: {r: 10, g: 0.1, b: 0, a: 0}
+    - _PauseEffectColor: {r: 1, g: 0, b: 0.26470554, a: 0}

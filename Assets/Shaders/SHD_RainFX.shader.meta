@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 59c17e8d6971c214e9cd592d00cbad8d
+timeCreated: 1520447463
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _T_RainFX_normal: {fileID: 2800000, guid: c80c2fa93b7a57044aea706c1aa6ab8c, type: 3}
+  - _T_RainFX_alpha: {fileID: 2800000, guid: 959894743cc0c22498a9e93035774d74, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

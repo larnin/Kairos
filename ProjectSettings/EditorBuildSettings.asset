@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 51d550fc036cb7c45b572165046f58aa
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: e24f6842327bc5d4abf859a90972028e
+  - enabled: 1
+    path: Assets/Scenes/Scene_Prison.unity
+    guid: e8dc1f54fcf0bc24da712ec080eb652d
+  - enabled: 1
+    path: Assets/Scenes/Scene_Forest.unity
+    guid: ade1e327372e28b489df1503386d9982
+  - enabled: 1
+    path: Assets/Scenes/Scene_CoupTelephone.unity
+    guid: d6da5678506b4d04daffc35350628e7c
+  - enabled: 1
+    path: Assets/Scenes/Scene_Incendie.unity
+    guid: a0e16b9f248cefb4d97de68e6fe0f4ea
+  - enabled: 1
+    path: Assets/Scenes/Scene_Tribunal.unity
+    guid: a93fabd64d9c12f458fb6da50896ebdb
+  - enabled: 1
+    path: Assets/Scenes/Scene_BackForward.unity
+    guid: 5cfc9114eccb3cf4db9cdf01b7d0e16f
+  - enabled: 1
+    path: Assets/Scenes/Outro.unity
+    guid: e1cedb59e4740fc4c84f2000cb262688

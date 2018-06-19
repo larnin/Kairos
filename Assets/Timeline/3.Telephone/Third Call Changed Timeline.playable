@@ -1,0 +1,5924 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 337831424, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: Third Call Changed Timeline
+  m_EditorClassIdentifier: 
+  m_Id: 0
+  m_NextId: 0
+  m_Tracks:
+  - {fileID: 114894188211426224}
+  - {fileID: 114266761498398894}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    fps: 60
+  m_UpdateMode: 0
+  m_ParameterName: 
+  m_DurationMode: 0
+--- !u!114 &114021463649068470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Event Track
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114266761498398894}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114497345984629040}
+    m_UnderlyingAsset: {fileID: 114497345984629040}
+    m_Duration: 55.049999999999
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114021463649068470}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+--- !u!114 &114030127442993572
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 2.7
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "What ? \nWhy didn't you tell me ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114062293183023238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 1.5
+    - Name: 
+      Entry: 4
+      Data: 2.6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Just busy, \nyou know, life. \n"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114128511651556270
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114137883915798542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -24.67
+    - Name: 
+      Entry: 4
+      Data: 7.031
+    - Name: 
+      Entry: 4
+      Data: -35.49
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.451181233
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0.8924324
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: NormalCall
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114168760867549390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Selene
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114894188211426224}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114617900945039338}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 1
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: OFF
+  - m_Start: 1
+    m_ClipIn: 0
+    m_Asset: {fileID: 114227190981795540}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 3.9999999999990017
+    m_ClipIn: 0
+    m_Asset: {fileID: 114783256801920894}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 2.9999999999999982
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: OFF
+  - m_Start: 6.999999999999
+    m_ClipIn: 0
+    m_Asset: {fileID: 114521805733245756}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 9.999999999999
+    m_ClipIn: 0
+    m_Asset: {fileID: 114516009179513126}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 12.999999999998
+    m_ClipIn: 0
+    m_Asset: {fileID: 114921333079485584}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 6
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: OFF
+  - m_Start: 19
+    m_ClipIn: 0
+    m_Asset: {fileID: 114967243829621824}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 22
+    m_ClipIn: 0
+    m_Asset: {fileID: 114651306877016170}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 25
+    m_ClipIn: 0
+    m_Asset: {fileID: 114292200105950558}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 8.999999999998998
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: OFF
+  - m_Start: 33.999999999998096
+    m_ClipIn: 0
+    m_Asset: {fileID: 114030127442993572}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 36.999999999998096
+    m_ClipIn: 0
+    m_Asset: {fileID: 114128511651556270}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 12.000000000001904
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: OFF
+  - m_Start: 49
+    m_ClipIn: 0
+    m_Asset: {fileID: 114663005703053686}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+  - m_Start: 52
+    m_ClipIn: 0
+    m_Asset: {fileID: 114634128741223370}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114168760867549390}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Selene
+--- !u!114 &114224576988936088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 1.8
+    - Name: 
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "I haven't been home \nmuch honestly."
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114227190981795540
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0.2
+    - Name: 
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: Jude ! Finally !
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114243877862282296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114266761498398894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: Movement
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 114650580288256982}
+  - {fileID: 114021463649068470}
+  m_Clips: []
+--- !u!114 &114292200105950558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 10000
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114375200889309800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114390584123820640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 3
+    - Name: 
+      Entry: 4
+      Data: 2.9
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: 'Hey !{d0.3}
+
+        You never even came the years before ! '
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114425277811416142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 1.5
+    - Name: 
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: so I'm a bit tired..
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114497345984629040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -27.59
+    - Name: 
+      Entry: 4
+      Data: 7.02
+    - Name: 
+      Entry: 4
+      Data: -32.993
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -2.85520248E-16
+    - Name: 
+      Entry: 4
+      Data: -0.327956676
+    - Name: 
+      Entry: 4
+      Data: -6.01841473E-16
+    - Name: 
+      Entry: 4
+      Data: 0.9446928
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GenericShadowPoseAction, Assembly-CSharp
+    - Name: m_animationName
+      Entry: 1
+      Data: ExcitedCall
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114516009179513126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: Where've you been ?
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114521805733245756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 2.7
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "I've been trying to \nreach you all week ! "
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114606207028650640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Jude
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114894188211426224}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0.16666666666666666
+    m_ClipIn: 0
+    m_Asset: {fileID: 114375200889309800}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3.8333333333323347
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: OFF
+  - m_Start: 3.999999999999
+    m_ClipIn: 0
+    m_Asset: {fileID: 114844171784209834}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+  - m_Start: 6.999999999999
+    m_ClipIn: 0
+    m_Asset: {fileID: 114734801862485812}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 5.999999999999
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: OFF
+  - m_Start: 12.999999999998
+    m_ClipIn: 0
+    m_Asset: {fileID: 114062293183023238}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+  - m_Start: 15.999999999998
+    m_ClipIn: 0
+    m_Asset: {fileID: 114224576988936088}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+  - m_Start: 19
+    m_ClipIn: 0
+    m_Asset: {fileID: 114813853282601594}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 5.999999999998998
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: OFF
+  - m_Start: 24.999999999998998
+    m_ClipIn: 0
+    m_Asset: {fileID: 114794436651137286}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+  - m_Start: 27.999999999998998
+    m_ClipIn: 0
+    m_Asset: {fileID: 114690595107556470}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+  - m_Start: 30.99999999999903
+    m_ClipIn: 0
+    m_Asset: {fileID: 114425277811416142}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+  - m_Start: 33.999999999999105
+    m_ClipIn: 0
+    m_Asset: {fileID: 114243877862282296}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 2.9999999999990017
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: OFF
+  - m_Start: 36.999999999998096
+    m_ClipIn: 0
+    m_Asset: {fileID: 114390584123820640}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+  - m_Start: 39.999999999998096
+    m_ClipIn: 0
+    m_Asset: {fileID: 114986885141553330}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+  - m_Start: 42.999999999998096
+    m_ClipIn: 0
+    m_Asset: {fileID: 114645877256867490}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+  - m_Start: 45.999999999998096
+    m_ClipIn: 0
+    m_Asset: {fileID: 114955792162123574}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 3
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+  - m_Start: 49
+    m_ClipIn: 0
+    m_Asset: {fileID: 114853418417373554}
+    m_UnderlyingAsset: {fileID: 114844171784209834}
+    m_Duration: 5.999999999998998
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114606207028650640}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: OFF
+--- !u!114 &114617900945039338
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: false
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114634128741223370
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -0.5
+    - Name: 
+      Entry: 4
+      Data: 2.7
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "don't worry, \nI won't bother you again. Bye"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114645877256867490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "I didn't think \nyou'd like to be here. \n"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114650580288256982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e145cbcff56e547a9a903f6c4b442d, type: 3}
+  m_Name: Event Track
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 114266761498398894}
+  m_Children: []
+  m_Clips:
+  - m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 114137883915798542}
+    m_UnderlyingAsset: {fileID: 114137883915798542}
+    m_Duration: 55.05
+    m_ParentID: 0
+    m_TimeScale: 1
+    m_BlendCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_ParentTrack: {fileID: 114650580288256982}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jude
+--- !u!114 &114651306877016170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -0.5
+    - Name: 
+      Entry: 4
+      Data: 2.6
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: ' It''ll be perfect to catch up'
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114663005703053686
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 2.7
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: 'No, it''s ok. I understand.
+
+        I hope you had fun. '
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114690595107556470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 2.1
+    - Name: 
+      Entry: 4
+      Data: 2.7
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "I was there with Chris \nand the others yesterday"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114734801862485812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114783256801920894
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: false
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114794436651137286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 1.5
+    - Name: 
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: 'I think I''ll pass. '
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114813853282601594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114844171784209834
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 1.5
+    - Name: 
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114853418417373554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1000
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114894188211426224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1544527758, guid: 6a10b2909283487f913b00d94cd3faf5, type: 3}
+  m_Name: Dialogues
+  m_EditorClassIdentifier: 
+  m_Locked: 0
+  m_Muted: 0
+  m_Soloed: 0
+  m_Height: 0
+  m_CustomPlayableFullTypename: 
+  m_AnimClip: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children:
+  - {fileID: 114606207028650640}
+  - {fileID: 114168760867549390}
+  m_Clips: []
+--- !u!114 &114921333079485584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 10000
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Oh, Hi Selene. \nWhat's up ?"
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114955792162123574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 2.5
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "And I couldn't reach you,\n so..."
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114967243829621824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: -0.5
+    - Name: 
+      Entry: 4
+      Data: 2.8
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: RightRoom/M_Selene
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: "Cool. Hey, wanna come \nto the festival tomorrow ? "
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+--- !u!114 &114986885141553330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad6a51445cd462489ca5ecb265226b4, type: 3}
+  m_Name: EventClip(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  _ExecuteInEditMode: 0
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 0}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: m_action
+      Entry: 7
+      Data: 0|MultipleAction, Assembly-CSharp
+    - Name: m_actions
+      Entry: 7
+      Data: 1|System.Collections.Generic.List`1[[BaseAction, Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 2|TransformAction, Assembly-CSharp
+    - Name: m_targetTransform
+      Entry: 5
+      Data: true
+    - Name: m_transform
+      Entry: 10
+      Data: 0
+    - Name: m_changePosition
+      Entry: 5
+      Data: true
+    - Name: m_position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 2.8
+    - Name: 
+      Entry: 4
+      Data: 2.8
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_changeRotation
+      Entry: 5
+      Data: true
+    - Name: m_rotation
+      Entry: 7
+      Data: UnityEngine.Quaternion, UnityEngine
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 1
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: -4.371139E-08
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: m_instantMove
+      Entry: 5
+      Data: false
+    - Name: m_gameobjectName
+      Entry: 1
+      Data: LeftRoom/M_Jude
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|TextAction, Assembly-CSharp
+    - Name: m_text
+      Entry: 1
+      Data: You never cared that much about it,
+    - Name: m_setFont
+      Entry: 5
+      Data: false
+    - Name: m_fontAsset
+      Entry: 6
+      Data: 
+    - Name: m_setMaterial
+      Entry: 5
+      Data: false
+    - Name: m_material
+      Entry: 6
+      Data: 
+    - Name: m_setFontSize
+      Entry: 5
+      Data: false
+    - Name: m_fontSize
+      Entry: 4
+      Data: 0
+    - Name: m_setEffect
+      Entry: 5
+      Data: true
+    - Name: m_textEffect
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 

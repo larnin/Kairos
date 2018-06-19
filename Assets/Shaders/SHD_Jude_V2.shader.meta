@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 33e907e536b07a84aaf5a406bb821f9d
+timeCreated: 1527845465
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _T_Ramp: {fileID: 2800000, guid: 7dea40901069d854293ac5bf464b747f, type: 3}
+  - _T_PerlinNoise: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+  - _Texture1: {fileID: 2800000, guid: 4031b1fc14c034145a34611a5a9709c9, type: 3}
+  - _Texture3: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+  - _TextureSample1: {fileID: 2800000, guid: 7dea40901069d854293ac5bf464b747f, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

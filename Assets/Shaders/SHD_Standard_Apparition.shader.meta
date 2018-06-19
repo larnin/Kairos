@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 43c62bcdb91aaf74cb418cb90aded0af
+timeCreated: 1527948889
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _NormalMap: {fileID: 2800000, guid: 9562261367f3d2a4fb1ff953434d524f, type: 3}
+  - _Albedo: {fileID: 2800000, guid: a1c7ec67740e94242a0c0a0db9f22f05, type: 3}
+  - _T_Paint02: {fileID: 2800000, guid: a45efdd1a8aa46c40beebf4ed4f81400, type: 3}
+  - _T_PerlinNoise: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+  - _VeinsPerlin: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+  - _VeinsRamp: {fileID: 2800000, guid: 7dea40901069d854293ac5bf464b747f, type: 3}
+  - _metalSmoothness: {fileID: 2800000, guid: 80bdf3811c67188488208078b881830d, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

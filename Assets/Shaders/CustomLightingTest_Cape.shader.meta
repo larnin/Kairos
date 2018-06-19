@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f5de08ed7eb4cfd43bf546aea4249445
+timeCreated: 1513010370
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _Albedo: {fileID: 2800000, guid: 6b945e39de12bf34ab4880818ca028f6, type: 3}
+  - _Normal: {fileID: 2800000, guid: 71183a7834158be4a9ca3609f11f3013, type: 3}
+  - _BrushTexture: {fileID: 2800000, guid: 98d9e6ad0c375c34b9a159cddeb180bf, type: 3}
+  - _BrushStrokeTexture: {fileID: 2800000, guid: 98d9e6ad0c375c34b9a159cddeb180bf,
+      type: 3}
+  - _CircleTexture: {fileID: 2800000, guid: 35e24652d44053e43924d68c7637c4d9, type: 3}
+  - _Emissive: {fileID: 2800000, guid: 385a5bd22ab61d140bbe513ed00ebdca, type: 3}
+  - _DisplaceTex: {fileID: 2800000, guid: ba37349d2e148c743a23954dcb764e72, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

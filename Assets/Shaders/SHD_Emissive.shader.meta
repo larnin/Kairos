@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 8c896ed2da6bfb248baffdcf14212c18
+timeCreated: 1529258961
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _Texture1: {fileID: 2800000, guid: 4031b1fc14c034145a34611a5a9709c9, type: 3}
+  - _Texture3: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+  - _TextureSample2: {fileID: 2800000, guid: 7dea40901069d854293ac5bf464b747f, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

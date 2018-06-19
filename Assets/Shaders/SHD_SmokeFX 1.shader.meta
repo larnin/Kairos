@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: b3caa2929fd9cdd4fba57767dacf6b8e
+timeCreated: 1520447143
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _TextureSample9: {fileID: 2800000, guid: a45efdd1a8aa46c40beebf4ed4f81400, type: 3}
+  - _T_PerlinNoise: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

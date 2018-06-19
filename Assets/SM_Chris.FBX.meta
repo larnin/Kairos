@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: d7631f77499ab5f43b52ac96dbc3d8d9
+timeCreated: 1523456558
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: chris_cordons
+    100002: chris_feet
+    100004: chris_hair
+    100006: chris_hands
+    100008: chris_head
+    100010: chris_hood_back
+    100012: chris_jacket
+    100014: chris_pants
+    100016: chris_shirt
+    100018: old_selene002
+    100020: //RootNode
+    400000: chris_cordons
+    400002: chris_feet
+    400004: chris_hair
+    400006: chris_hands
+    400008: chris_head
+    400010: chris_hood_back
+    400012: chris_jacket
+    400014: chris_pants
+    400016: chris_shirt
+    400018: old_selene002
+    400020: //RootNode
+    2300000: chris_cordons
+    2300002: chris_feet
+    2300004: chris_hair
+    2300006: chris_hands
+    2300008: chris_head
+    2300010: chris_hood_back
+    2300012: chris_jacket
+    2300014: chris_pants
+    2300016: chris_shirt
+    3300000: chris_cordons
+    3300002: chris_feet
+    3300004: chris_hair
+    3300006: chris_hands
+    3300008: chris_head
+    3300010: chris_hood_back
+    3300012: chris_jacket
+    3300014: chris_pants
+    3300016: chris_shirt
+    4300000: chris_feet
+    4300002: chris_hair
+    4300004: chris_cordons
+    4300006: chris_hands
+    4300008: chris_head
+    4300010: chris_pants
+    4300012: chris_shirt
+    4300014: chris_hood_back
+    4300016: chris_jacket
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

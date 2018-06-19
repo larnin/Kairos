@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d990e44a4ea71bd4ba16592ad16b5576
+timeCreated: 1527777595
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _Texture1: {fileID: 2800000, guid: 4031b1fc14c034145a34611a5a9709c9, type: 3}
+  - _Texture3: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+  - _TextureSample1: {fileID: 2800000, guid: 7dea40901069d854293ac5bf464b747f, type: 3}
+  - _Opacity: {fileID: 2800000, guid: 32e920955fa1ad64887d960f3cf8341d, type: 3}
+  - _Burnmask: {fileID: 2800000, guid: 777cf9fab1cbcca4abff83b8e9e62de5, type: 3}
+  - _Ramp: {fileID: 2800000, guid: 7dea40901069d854293ac5bf464b747f, type: 3}
+  - _PerlinNoise: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

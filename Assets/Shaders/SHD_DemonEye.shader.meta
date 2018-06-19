@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 9e136818611118741a6959222b750d57
+timeCreated: 1528561596
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _T_DemonEye_1: {fileID: 2800000, guid: 20122e7d8ab83364cb87052cda687ae5, type: 3}
+  - _T_DemonEye_2: {fileID: 2800000, guid: 30870e59278e54444958a5b2cafa39cc, type: 3}
+  - _T_Paint02: {fileID: 2800000, guid: a45efdd1a8aa46c40beebf4ed4f81400, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

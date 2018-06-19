@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: aa07e38596036f644b1d1ef5f44a7bd8
+timeCreated: 1525448979
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _T_BlueNoise: {fileID: 2800000, guid: b7c97b3185049074faf6939f0dd601ae, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

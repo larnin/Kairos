@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1153467004029578}
+  m_IsPrefabParent: 1
+--- !u!1 &1153467004029578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4027707661281430}
+  - component: {fileID: 114867302707588054}
+  m_Layer: 0
+  m_Name: ResponsiveUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4027707661281430
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1153467004029578}
+  m_LocalRotation: {x: -0, y: -0.16439043, z: -0, w: 0.98639536}
+  m_LocalPosition: {x: -25.407658, y: 1.380022, z: 5.996208}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -18.924002, z: 0}
+--- !u!114 &114867302707588054
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1153467004029578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bac471734168d4844af039eb4c6c2604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_bublesPrefab: {fileID: 1130648151375068, guid: d4ba917f11054a746b5f025114da6b00,
+    type: 2}
+  m_distance: 350
+  m_borderX: 20
+  m_borderY: 20
+  m_offset: {x: 0, y: 1.55, z: 0}
+  m_playerTransform: {fileID: 0}
+  newSizeWhenSelected: 1.2
+  m_baseMaterial: {fileID: 21167597023173174, guid: 2726b207d5ecae64e9d83c7232d1ea3e,
+    type: 2}
+  m_whenSelected: {fileID: 2100000, guid: f1351b9f8ff5070488e04e99211ffd1d, type: 2}
+  m_whenCorrect: {fileID: 2100000, guid: dedc05bc87832934d8f7d01b5bd243bb, type: 2}
+  m_whenWrong: {fileID: 2100000, guid: 69d8e164599d0fd48bb903e25682d104, type: 2}
+  blueOfPaul: {r: 0, g: 0.7058824, b: 1, a: 0.23529412}
+  redOfPaul: {r: 1, g: 0, b: 0.23529412, a: 0.29411766}
+  m_demonCamera: {fileID: 0}
+  m_goodParticle: {fileID: 1207923710401448, guid: b4214d88ed458d2409378330e80360d0,
+    type: 2}
+  m_badParticle: {fileID: 1856137769927392, guid: 5c6ae1b3cd966f84692a818e7811ce1d,
+    type: 2}

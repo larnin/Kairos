@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f683af82b3b717a419942797ddb4b948, type: 3}
+  m_Name: defaultData
+  m_EditorClassIdentifier: 
+  ChangedWordBold: 0
+  FontSelectableWordDefault: {fileID: 11400000, guid: 28625d1fae50a904d88290442cd3fd11,
+    type: 2}
+  MaterialSelectableWordDefault: {fileID: 2100000, guid: 504663bebc063cb44a1397e1b818f5e2,
+    type: 2}
+  FontSelectableWordCorrect: {fileID: 11400000, guid: df8e97a73d710d343ab2bc37dbe4bb7a,
+    type: 2}
+  MaterialSelectableWordCorrect: {fileID: 21960445128176404, guid: df8e97a73d710d343ab2bc37dbe4bb7a,
+    type: 2}
+  FontSelectableWordWrong: {fileID: 11400000, guid: df8e97a73d710d343ab2bc37dbe4bb7a,
+    type: 2}
+  MaterialSelectableWordWrong: {fileID: 21960445128176404, guid: df8e97a73d710d343ab2bc37dbe4bb7a,
+    type: 2}
+  ChoiceBubbleNewSize: 1.25
+  timetoReadPerCharacter: 0.02
+  secondToWaitWhenPhraseIsVisible: 1
+  baseTimePauseDelay: 1
+  onWordParticleEffect: {fileID: 1456216162267604, guid: 1a85e3b02025d63479cb3c2e22781e80,
+    type: 2}
+  PH_SelectedGameObject: {fileID: 1704302821057690, guid: 087767ba0e870d14ebf490a8f158df65,
+    type: 2}

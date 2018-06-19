@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 0fa1ed33765984f4ba2d4ed327dddcfb
+timeCreated: 1523455969
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _T_Paint04: {fileID: 2800000, guid: 5ecc64c847457dd4896f74df9a4224f2, type: 3}
+  - _T_LinearMask1: {fileID: 2800000, guid: ab3541b85f9eb1e43869f309cbd372ad, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

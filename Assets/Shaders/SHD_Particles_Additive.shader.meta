@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ca13b7f73e5c9b54988f134b7bf6e21e
+timeCreated: 1523975063
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _T_Losange: {fileID: 2800000, guid: 08b4ea5c86664d0459368d202c50d797, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 66a1e77f00d651545b081632028dc443
+timeCreated: 1513348870
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _T_LinearMask1: {fileID: 2800000, guid: ab3541b85f9eb1e43869f309cbd372ad, type: 3}
+  - _T_PerlinNoise: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

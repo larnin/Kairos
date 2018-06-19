@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: db95934aa96f05a44bfc3625470801cf
+timeCreated: 1518107497
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Box002
+    100002: Box003
+    100004: Box004
+    100006: Box005
+    100008: Box013
+    100010: Box014
+    100012: Box024
+    100014: Box025
+    100016: Box026
+    100018: Box027
+    100020: Box028
+    100022: Box029
+    100024: Box031
+    100026: Box032
+    100028: Box033
+    100030: Box034
+    100032: Box035
+    100034: Box036
+    100036: Box037
+    100038: Box038
+    100040: Box039
+    100042: Box040
+    100044: Box041
+    100046: Box042
+    100048: Box045
+    100050: Box046
+    100052: Box048
+    100054: Box049
+    100056: Box061
+    100058: Box062
+    100060: Box063
+    100062: Box064
+    100064: Box065
+    100066: Cylinder006
+    100068: "Etag\xE8re 002"
+    100070: "Etag\xE8re 01"
+    100072: Line001
+    100074: Outil_1
+    100076: Pince
+    100078: Plane001
+    100080: Plane005
+    100082: //RootNode
+    400000: Box002
+    400002: Box003
+    400004: Box004
+    400006: Box005
+    400008: Box013
+    400010: Box014
+    400012: Box024
+    400014: Box025
+    400016: Box026
+    400018: Box027
+    400020: Box028
+    400022: Box029
+    400024: Box031
+    400026: Box032
+    400028: Box033
+    400030: Box034
+    400032: Box035
+    400034: Box036
+    400036: Box037
+    400038: Box038
+    400040: Box039
+    400042: Box040
+    400044: Box041
+    400046: Box042
+    400048: Box045
+    400050: Box046
+    400052: Box048
+    400054: Box049
+    400056: Box061
+    400058: Box062
+    400060: Box063
+    400062: Box064
+    400064: Box065
+    400066: Cylinder006
+    400068: "Etag\xE8re 002"
+    400070: "Etag\xE8re 01"
+    400072: Line001
+    400074: Outil_1
+    400076: Pince
+    400078: Plane001
+    400080: Plane005
+    400082: //RootNode
+    2300000: Box002
+    2300002: Box003
+    2300004: Box004
+    2300006: Box005
+    2300008: Box013
+    2300010: Box014
+    2300012: Box024
+    2300014: Box025
+    2300016: Box026
+    2300018: Box027
+    2300020: Box028
+    2300022: Box029
+    2300024: Box031
+    2300026: Box032
+    2300028: Box033
+    2300030: Box034
+    2300032: Box035
+    2300034: Box036
+    2300036: Box037
+    2300038: Box038
+    2300040: Box039
+    2300042: Box040
+    2300044: Box041
+    2300046: Box042
+    2300048: Box045
+    2300050: Box046
+    2300052: Box048
+    2300054: Box049
+    2300056: Box061
+    2300058: Box062
+    2300060: Box063
+    2300062: Box064
+    2300064: Box065
+    2300066: Cylinder006
+    2300068: "Etag\xE8re 002"
+    2300070: "Etag\xE8re 01"
+    2300072: Line001
+    2300074: Plane001
+    2300076: Plane005
+    3300000: Box002
+    3300002: Box003
+    3300004: Box004
+    3300006: Box005
+    3300008: Box013
+    3300010: Box014
+    3300012: Box024
+    3300014: Box025
+    3300016: Box026
+    3300018: Box027
+    3300020: Box028
+    3300022: Box029
+    3300024: Box031
+    3300026: Box032
+    3300028: Box033
+    3300030: Box034
+    3300032: Box035
+    3300034: Box036
+    3300036: Box037
+    3300038: Box038
+    3300040: Box039
+    3300042: Box040
+    3300044: Box041
+    3300046: Box042
+    3300048: Box045
+    3300050: Box046
+    3300052: Box048
+    3300054: Box049
+    3300056: Box061
+    3300058: Box062
+    3300060: Box063
+    3300062: Box064
+    3300064: Box065
+    3300066: Cylinder006
+    3300068: "Etag\xE8re 002"
+    3300070: "Etag\xE8re 01"
+    3300072: Line001
+    3300074: Plane001
+    3300076: Plane005
+    4300000: Plane001
+    4300002: Box002
+    4300004: Box003
+    4300006: Box004
+    4300008: Box005
+    4300010: Box013
+    4300012: Box014
+    4300014: Box024
+    4300016: Box025
+    4300018: Box026
+    4300020: Box027
+    4300022: Box029
+    4300024: Box028
+    4300026: Box032
+    4300028: Box031
+    4300030: Line001
+    4300032: Box033
+    4300034: Box034
+    4300036: Box035
+    4300038: Box036
+    4300040: Box037
+    4300042: Cylinder006
+    4300044: Box038
+    4300046: Box039
+    4300048: Box040
+    4300050: "Etag\xE8re 01"
+    4300052: Box041
+    4300054: Box042
+    4300056: "Etag\xE8re 002"
+    4300058: Box045
+    4300060: Box046
+    4300062: Box048
+    4300064: Plane005
+    4300066: Box049
+    4300068: Box061
+    4300070: Box062
+    4300072: Box063
+    4300074: Box064
+    4300076: Box065
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

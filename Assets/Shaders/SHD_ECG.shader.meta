@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d2ab58761092ab2499c7717496a0f039
+timeCreated: 1520527302
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _T_ECGDiscplace: {fileID: 2800000, guid: 7bc87fdb648c38b4693a6d227424e3b0, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

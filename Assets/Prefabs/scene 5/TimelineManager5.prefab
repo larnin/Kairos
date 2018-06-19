@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1017756163378576}
+  m_IsPrefabParent: 1
+--- !u!1 &1017756163378576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4247950392595382}
+  - component: {fileID: 114027404900083860}
+  - component: {fileID: 114416241394662670}
+  m_Layer: 0
+  m_Name: TimelineManager5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4247950392595382
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017756163378576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -18.049295, y: 10.618201, z: -22.877077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114027404900083860
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017756163378576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a3a49fc2f1df9246ba3401e72ba5aa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_effectTime: 2
+  m_properties:
+  - property: realCulprit
+  - property: defender
+  - property: lastMemory
+  - property: choice1
+  - property: justice
+  - property: hate
+  - property: obligation
+  - property: choice3
+  - property: decided
+  - property: changed
+  - property: failed
+  - property: choice2
+  - property: doingRight
+  - property: nothing
+  - property: fullOfHate
+  - property: choice5
+  - property: against
+  - property: together
+  - property: closer
+  - property: choice4
+  - property: we
+  - property: they
+  - property: weDidnt
+  - property: choice6
+  m_elements:
+  - name: choice1
+    groupColor: {r: 0, g: 0.91724133, b: 1, a: 0.166}
+    m_condition:
+      m_properties:
+      - choice1
+      - realCulprit
+      m_conditionExpression: '!choice1 && !realCulprit'
+    objects:
+    - {fileID: 0}
+  - name: deadEnd judeOnFire
+    groupColor: {r: 1, g: 0, b: 0, a: 0.247}
+    m_condition:
+      m_properties:
+      - realCulprit
+      - fullOfHate
+      - closer
+      - hate
+      m_conditionExpression: realCulprit || fullOfHate || closer || hate
+    objects:
+    - {fileID: 0}
+  - name: glassCage
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - defender
+      m_conditionExpression: defender
+    objects:
+    - {fileID: 0}
+  - name: seleneAppear
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - choice1
+      m_conditionExpression: choice1
+    objects:
+    - {fileID: 0}
+  - name: discours1
+    groupColor: {r: 0, g: 1, b: 0.13103461, a: 0.128}
+    m_condition:
+      m_properties:
+      - choice1
+      - justice
+      - obligation
+      m_conditionExpression: choice1 && !justice && !obligation
+    objects:
+    - {fileID: 0}
+  - name: choice3
+    groupColor: {r: 0, g: 0.9176471, b: 1, a: 0.134}
+    m_condition:
+      m_properties:
+      - choice1
+      - choice3
+      - fullOfHate
+      - failed
+      - hate
+      m_conditionExpression: choice1 && !choice3 && !failed && !hate && !fullOfHate
+    objects:
+    - {fileID: 0}
+  - name: barrierBetween
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - decided
+      m_conditionExpression: decided
+    objects:
+    - {fileID: 0}
+  - name: picOfJude
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - changed
+      m_conditionExpression: changed
+    objects:
+    - {fileID: 0}
+  - name: deadEndcroudDispear
+    groupColor: {r: 1, g: 0, b: 0, a: 0.209}
+    m_condition:
+      m_properties:
+      - failed
+      m_conditionExpression: failed
+    objects: []
+  - name: choice2
+    groupColor: {r: 0, g: 0.9176471, b: 1, a: 0.103}
+    m_condition:
+      m_properties:
+      - choice1
+      - choice2
+      - fullOfHate
+      - hate
+      - failed
+      m_conditionExpression: choice1 && !choice2 && !fullOfHate && !hate && !failed
+    objects:
+    - {fileID: 0}
+  - name: JugeNextToSelene
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - justice
+      m_conditionExpression: justice
+    objects:
+    - {fileID: 0}
+  - name: JugeAppearAtBasePos
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - obligation
+      - justice
+      m_conditionExpression: obligation || justice
+    objects:
+    - {fileID: 0}
+  - name: discours2
+    groupColor: {r: 0, g: 1, b: 0.12941177, a: 0.103}
+    m_condition:
+      m_properties:
+      - justice
+      - obligation
+      - against
+      m_conditionExpression: (justice || obligation) && !against
+    objects:
+    - {fileID: 0}
+  - name: deadEndChrisFuneral
+    groupColor: {r: 1, g: 0, b: 0, a: 0.184}
+    m_condition:
+      m_properties:
+      - hate
+      m_conditionExpression: hate
+    objects: []
+  - name: 'choice5 (semi-optionnal) '
+    groupColor: {r: 0, g: 0.9176471, b: 1, a: 0.091}
+    m_condition:
+      m_properties:
+      - justice
+      - choice5
+      - fullOfHate
+      - closer
+      - weDidnt
+      m_conditionExpression: justice && !choice5 && !fullOfHate && !closer && !weDidnt
+    objects:
+    - {fileID: 0}
+  - name: choice4
+    groupColor: {r: 0, g: 0.8758622, b: 1, a: 0.109}
+    m_condition:
+      m_properties:
+      - choice2
+      - choice3
+      - closer
+      - fullOfHate
+      - choice4
+      m_conditionExpression: choice2 && choice3 && !closer && !fullOfHate && !choice4
+    objects:
+    - {fileID: 0}
+  - name: judeTPBoxAccused
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - together
+      m_conditionExpression: together
+    objects:
+    - {fileID: 0}
+  - name: discours3 && verySadSelene
+    groupColor: {r: 0, g: 1, b: 0.08965516, a: 0.116}
+    m_condition:
+      m_properties:
+      - against
+      m_conditionExpression: against
+    objects:
+    - {fileID: 0}
+  - name: choice6
+    groupColor: {r: 0.10207612, g: 0.7726107, b: 0.86764705, a: 0.122}
+    m_condition:
+      m_properties:
+      - choice4
+      - choice6
+      - weDidnt
+      - fullOfHate
+      m_conditionExpression: choice4 && !choice6 && !weDidnt && !fullOfHate
+    objects:
+    - {fileID: 0}
+  - name: Jury and procureur appear
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - they
+      m_conditionExpression: they
+    objects:
+    - {fileID: 0}
+  - name: keyPoseJudeNormal
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - choice2
+      - choice3
+      - choice1
+      m_conditionExpression: choice1 && !choice2 && !choice3
+    objects:
+    - {fileID: 0}
+  - name: keyposeSeleneNormal
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - choice3
+      - choice5
+      - choice4
+      - choice1
+      m_conditionExpression: choice1 && !choice3 && !choice4 && !choice5
+    objects:
+    - {fileID: 0}
+  - name: SadJude
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - choice2
+      - choice3
+      - choice4
+      m_conditionExpression: choice2 && !choice3 && !choice4
+    objects:
+    - {fileID: 0}
+  - name: JudeBegging
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - choice3
+      - choice4
+      - choice5
+      - choice6
+      m_conditionExpression: (choice3 || choice4 || choice5) && !choice6
+    objects:
+    - {fileID: 0}
+  - name: SeleneMalaise
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - choice3
+      - choice4
+      - choice5
+      - choice6
+      m_conditionExpression: (choice3 || choice4 || choice5) && !choice6
+    objects:
+    - {fileID: 0}
+  - name: EndChoice6_keyposes
+    groupColor: {r: 1, g: 1, b: 1, a: 0}
+    m_condition:
+      m_properties:
+      - choice6
+      m_conditionExpression: choice6
+    objects:
+    - {fileID: 0}
+    - {fileID: 0}
+--- !u!114 &114416241394662670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1017756163378576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3f78c3d7778cb4496f6ab68048deb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

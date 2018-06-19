@@ -1,0 +1,337 @@
+fileFormatVersion: 2
+guid: 25236557be6a76f44b346051b7b0f7cd
+timeCreated: 1519120960
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Box002
+    100002: Box003
+    100004: Box004
+    100006: Box013
+    100008: Box014
+    100010: Box024
+    100012: Box025
+    100014: Box026
+    100016: Box027
+    100018: Box028
+    100020: Box029
+    100022: Box031
+    100024: Box032
+    100026: Box033
+    100028: Box034
+    100030: Box035
+    100032: Box036
+    100034: Box037
+    100036: Box038
+    100038: Box041
+    100040: Box042
+    100042: Box045
+    100044: Box046
+    100046: Box048
+    100048: Box049
+    100050: Box066
+    100052: Box067
+    100054: Box068
+    100056: Box069
+    100058: Box070
+    100060: Box071
+    100062: Bureau
+    100064: Bureau 1
+    100066: CeintureInteractive
+    100068: Crochet01
+    100070: crochet02
+    100072: Crochet03
+    100074: Cylinder006
+    100076: "Etag\xE8re 002"
+    100078: "Etag\xE8re 01"
+    100080: Group001
+    100082: Line001
+    100084: Marteau
+    100086: Martinez
+    100088: Plane001
+    100090: Plane005
+    100092: Plane006
+    100094: //RootNode
+    100096: Box072
+    100098: Box073
+    100100: Box074
+    100102: Bureau001
+    400000: Box002
+    400002: Box003
+    400004: Box004
+    400006: Box013
+    400008: Box014
+    400010: Box024
+    400012: Box025
+    400014: Box026
+    400016: Box027
+    400018: Box028
+    400020: Box029
+    400022: Box031
+    400024: Box032
+    400026: Box033
+    400028: Box034
+    400030: Box035
+    400032: Box036
+    400034: Box037
+    400036: Box038
+    400038: Box041
+    400040: Box042
+    400042: Box045
+    400044: Box046
+    400046: Box048
+    400048: Box049
+    400050: Box066
+    400052: Box067
+    400054: Box068
+    400056: Box069
+    400058: Box070
+    400060: Box071
+    400062: Bureau
+    400064: Bureau 1
+    400066: CeintureInteractive
+    400068: Crochet01
+    400070: crochet02
+    400072: Crochet03
+    400074: Cylinder006
+    400076: "Etag\xE8re 002"
+    400078: "Etag\xE8re 01"
+    400080: Group001
+    400082: Line001
+    400084: Marteau
+    400086: Martinez
+    400088: Plane001
+    400090: Plane005
+    400092: Plane006
+    400094: //RootNode
+    400096: Box072
+    400098: Box073
+    400100: Box074
+    400102: Bureau001
+    2300000: Box002
+    2300002: Box003
+    2300004: Box004
+    2300006: Box013
+    2300008: Box014
+    2300010: Box024
+    2300012: Box025
+    2300014: Box026
+    2300016: Box027
+    2300018: Box028
+    2300020: Box029
+    2300022: Box031
+    2300024: Box032
+    2300026: Box033
+    2300028: Box034
+    2300030: Box035
+    2300032: Box036
+    2300034: Box037
+    2300036: Box038
+    2300038: Box041
+    2300040: Box042
+    2300042: Box045
+    2300044: Box046
+    2300046: Box048
+    2300048: Box049
+    2300050: Box066
+    2300052: Box067
+    2300054: Box068
+    2300056: Box069
+    2300058: Box070
+    2300060: Box071
+    2300062: Bureau 1
+    2300064: CeintureInteractive
+    2300066: Crochet01
+    2300068: crochet02
+    2300070: Crochet03
+    2300072: Cylinder006
+    2300074: "Etag\xE8re 002"
+    2300076: "Etag\xE8re 01"
+    2300078: Line001
+    2300080: Marteau
+    2300082: Martinez
+    2300084: Plane001
+    2300086: Plane005
+    2300088: Plane006
+    2300090: Box072
+    2300092: Bureau
+    2300094: Box073
+    2300096: Box074
+    2300098: Bureau001
+    3300000: Box002
+    3300002: Box003
+    3300004: Box004
+    3300006: Box013
+    3300008: Box014
+    3300010: Box024
+    3300012: Box025
+    3300014: Box026
+    3300016: Box027
+    3300018: Box028
+    3300020: Box029
+    3300022: Box031
+    3300024: Box032
+    3300026: Box033
+    3300028: Box034
+    3300030: Box035
+    3300032: Box036
+    3300034: Box037
+    3300036: Box038
+    3300038: Box041
+    3300040: Box042
+    3300042: Box045
+    3300044: Box046
+    3300046: Box048
+    3300048: Box049
+    3300050: Box066
+    3300052: Box067
+    3300054: Box068
+    3300056: Box069
+    3300058: Box070
+    3300060: Box071
+    3300062: Bureau 1
+    3300064: CeintureInteractive
+    3300066: Crochet01
+    3300068: crochet02
+    3300070: Crochet03
+    3300072: Cylinder006
+    3300074: "Etag\xE8re 002"
+    3300076: "Etag\xE8re 01"
+    3300078: Line001
+    3300080: Marteau
+    3300082: Martinez
+    3300084: Plane001
+    3300086: Plane005
+    3300088: Plane006
+    3300090: Box072
+    3300092: Bureau
+    3300094: Box073
+    3300096: Box074
+    3300098: Bureau001
+    4300000: Plane001
+    4300002: Box002
+    4300004: Box003
+    4300006: Box004
+    4300008: Box013
+    4300010: Box014
+    4300012: Box024
+    4300014: Box025
+    4300016: Box026
+    4300018: Box027
+    4300020: Line001
+    4300022: Box033
+    4300024: Box034
+    4300026: Box035
+    4300028: Box036
+    4300030: Box037
+    4300032: Cylinder006
+    4300034: Box038
+    4300036: "Etag\xE8re 01"
+    4300038: Box041
+    4300040: Box042
+    4300042: "Etag\xE8re 002"
+    4300044: Box045
+    4300046: Box046
+    4300048: Box048
+    4300050: Box049
+    4300052: Martinez
+    4300054: CeintureInteractive
+    4300056: Marteau
+    4300058: Crochet03
+    4300060: crochet02
+    4300062: Crochet01
+    4300064: Bureau
+    4300066: Plane005
+    4300068: Box066
+    4300070: Box067
+    4300072: Box068
+    4300074: Box069
+    4300076: Plane006
+    4300078: Box070
+    4300080: Box028
+    4300082: Box029
+    4300084: Box031
+    4300086: Box032
+    4300088: Box071
+    4300090: Box072
+    4300092: Box073
+    4300094: Bureau001
+    4300096: Box074
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

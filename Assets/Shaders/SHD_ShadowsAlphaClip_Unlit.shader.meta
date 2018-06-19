@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 6deca50715932f34eb36c1c26b9e36cf
+timeCreated: 1521995285
+licenseType: Free
+ShaderImporter:
+  defaultTextures:
+  - _Opacity: {fileID: 2800000, guid: 32e920955fa1ad64887d960f3cf8341d, type: 3}
+  - _BurntEffect: {fileID: 2800000, guid: a45efdd1a8aa46c40beebf4ed4f81400, type: 3}
+  - _PerlinNoise: {fileID: 2800000, guid: 42dbced87bcc88c43972234ffac469eb, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
